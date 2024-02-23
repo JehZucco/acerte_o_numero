@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Monofett&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body{
+    height: 100vh;
+    background-color: black;
+    color: white;
+    background-image: url(onda_azul.png);
+    background-position: bottom;
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+@media (min-width: 1024px) {
+    body{
+        background-size:cover;
+        background-repeat: no-repeat;
+    }
+}
+header h1{
+    font-family: "Monofett", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  text-align: center;
+  padding: 10px;
+}
+@media (min-width: 1024px){
+    header h1{
+        font-size: 80px;
+    }
+}
+p, button{
+    font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+}
+@media (min-width: 1024px){
+    p, button{
+        font-size: 1.5rem;
+    }
+}
+p{
+    line-height: 1.5;
+    padding: 20px;
+}
+@media (min-width: 1024px){
+    h1{
+        padding: 20px;
+    }
+    p{
+        padding: 30px;
+    }
+}
+input{
+    height: 45px;
+    font-size: 20px;
+    margin: 20px;
+    border-radius: 25px;
+}
+button{
+    padding: 5px;
+    margin: 20px;
+    font-style: italic;
+    border-radius: 25px;
+}
