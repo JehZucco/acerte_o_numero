@@ -13,10 +13,12 @@
         <p>Você está com sorte? Tente acertar o número aleatório gerado pelo computador!</p>
     </header>
     <main>
-        <p>Digite um número entre 0 e 10 e teste sua sorte:</p>
-        <form>
+        <p>É um número de 0 a 100, você só tem 10 tentativas:</p>
+        <form id="adivinhaNumero">
             <input type="number" id="recebe_numero"> <br>
-            <button onclick="testaLogica()">testar a sorte</button>
+            <p id="dica" class="italico"></p>
+            <p id="tentativas" class="italico"> Número de tentativas: 10</p>
+            <button>testar a sorte</button>
         </form>
     </main>
     <script type="text/javascript" src="./main.js"></script>

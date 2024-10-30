@@ -39,6 +39,9 @@ p, button{
   font-style: normal;
   font-size: 1.2rem;
 }
+.italico{
+    font-style: italic;
+}
 @media (min-width: 1024px){
     p, button{
         font-size: 1.5rem;
