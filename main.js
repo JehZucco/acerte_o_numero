@@ -34,9 +34,9 @@
         
 
         if(recebeNumero > numeroAleatorioArredondado){
-            insereDica.textContent = 'É um número menor que ' + recebeNumero + " " + numeroAleatorioArredondado;
+            insereDica.textContent = 'É um número menor que ' + recebeNumero;
         }else if(recebeNumero < numeroAleatorioArredondado){
-           insereDica.textContent = 'É um número maior que ' + recebeNumero + " " + numeroAleatorioArredondado;
+           insereDica.textContent = 'É um número maior que ' + recebeNumero;
        }else if (recebeNumero == numeroAleatorioArredondado){
             alert('Acertou! Um novo número foi gerado, você pode tentar novamente');
             document.getElementById("recebe_numero").value = "";
